@@ -1,0 +1,78 @@
+vtile 50
+htile 50
+
+ignore fcitx5
+
+borderwidth 3
+fontname "DejaVu Sans:pixelsize=14:style=bold"
+
+command firefox firefox
+
+snapdist 20
+gap 50 0 0 0
+color activeborder "#f5bde6"
+color inactiveborder "#c6a0f6"
+color menubg "#24273a"
+color menufg "#1e2030"
+color font "#f8f8f2"
+color selfont "#282a36"
+
+unbind-key all
+bind-key 4-e "nemo"
+bind-key 4-Return "alacritty --config-file /home/yisui/nixosconfigs/alacritty/alacritty.yml"
+bind-key 4-q window-delete
+bind-key 4-h window-move-left-big
+bind-key 4-j window-move-down-big
+bind-key 4-k window-move-up-big
+bind-key 4-l window-move-right-big
+bind-key S4-h window-resize-left-big
+bind-key S4-j window-resize-down-big
+bind-key S4-k window-resize-up-big
+bind-key S4-l window-resize-right-big
+bind-key 4-x window-maximize
+bind-key 4-y window-vmaximize
+bind-key 4-z window-vmaximize
+bind-key 4-f window-group
+bind-key 4-1 group-toggle-1
+bind-key 4-2 group-toggle-2
+bind-key 4-3 group-toggle-3
+bind-key 4-4 group-toggle-4
+bind-key 4-5 group-only-5
+bind-key 4-6 group-only-6
+bind-key 4-7 group-only-7
+bind-key 4-8 group-only-8
+bind-key 4-9 group-only-9
+bind-key S4-1 window-movetogroup-1
+bind-key S4-2 window-movetogroup-2
+bind-key S4-3 window-movetogroup-3
+bind-key S4-4 window-movetogroup-4
+bind-key S4-5 window-movetogroup-5
+bind-key S4-6 window-movetogroup-6
+bind-key S4-7 window-movetogroup-7
+bind-key S4-8 window-movetogroup-8
+bind-key S4-9 window-movetogroup-9
+bind-key M-Tab window-cycle
+bind-key SM-Tab window-rcycle
+bind-key 4-Tab window-cycle
+bind-key S4-Tab window-rcycle
+bind-key 4-c window-hide
+bind-key 4-r restart
+bind-key S4-w menu-exec-wm
+bind-key S4-q quit
+bind-key 4-d dmenu_run
+
+bind-key 4-s menu-window
+bind-key 4-slash menu-exec
+
+bind-key XF86AudioRaiseVolume "pactl set-sink-volume @DEFAULT_SINK@ +10%"
+bind-key XF86AudioLowerVolume "pactl set-sink-volume @DEFAULT_SINK@ -10%"
+bind-key XF86MonBrightnessDown "light -U 10"
+bind-key XF86MonBrightnessUp "light -A 10"
+
+bind-mouse "1" menu-window-hidden
+bind-mouse 4-1 window-move
+bind-mouse 4-2 window-resize
+bind-mouse 4-3 window-lower
+unbind-mouse M-1
+unbind-mouse M-2
+unbind-mouse M-3
