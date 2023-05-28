@@ -10,6 +10,7 @@ polybar
 feh
 pulseaudio
 light
+picom
 ```
 
 
