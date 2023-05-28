@@ -1,5 +1,5 @@
 # cwm-configs-linux
-My CWM config (on Linux)
+My catppucchin themed CWM config (on Linux)
 
 requirements:
 
