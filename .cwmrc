@@ -19,7 +19,7 @@ color selfont "#282a36"
 
 unbind-key all
 bind-key 4-e "nemo"
-bind-key 4-Return "alacritty --config-file /home/yisui/nixosconfigs/alacritty/alacritty.yml"
+bind-key 4-Return "alacritty --config-file /home/yisui/alacritty.yml"
 bind-key 4-q window-delete
 bind-key 4-h window-move-left-big
 bind-key 4-j window-move-down-big
