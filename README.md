@@ -8,6 +8,8 @@ cwm
 alacritty
 polybar
 feh
+pulseaudio
+light
 ```
 
 
