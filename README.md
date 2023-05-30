@@ -14,6 +14,7 @@ feh
 pulseaudio
 light
 picom
+dmenu
 ```
 Currently I don't know how to configure polybar so my polybar is empty 😢. If you have good ideas, please feel free to open Issue or PRs! Thanks a lot. ❤️
 
