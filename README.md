@@ -17,4 +17,4 @@ picom
 ```
 
 
-![image](https://github.com/YisuiDenghua/cwm-configs-linux/assets/102890144/a54ba487-92e0-4491-a5b1-860d7c943b63)
+![image](https://github.com/YisuiDenghua/cwm-configs-linux/assets/102890144/d57291bf-2b8a-41fd-aaf3-7cc30e65bb49)
