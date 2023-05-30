@@ -1,4 +1,7 @@
 # cwm-configs-linux
+
+### ¡¡Impurity Warning!!
+
 My catppucchin themed CWM config (on Linux)
 
 requirements:
