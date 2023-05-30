@@ -28,10 +28,6 @@ font-0 = Iosevka NF:style=Medium:size=12;3
 modules-left = xworkspaces xwindow
 modules-right = sensor network volume kbdlayout battery datetime
 
-[module/battery-combined-udev]
-type = custom/script
-exec = ~/polybar-scripts/battery-combined-udev.sh
-tail = true
 
 [module/xworkspaces]
 type = internal/xworkspaces
